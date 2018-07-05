@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk update
+#RUN apk update
 
 RUN mkdir /data
 WORKDIR /data
